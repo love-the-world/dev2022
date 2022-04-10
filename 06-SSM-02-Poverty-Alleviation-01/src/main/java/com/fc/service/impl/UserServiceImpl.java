@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -72,4 +73,60 @@ public class UserServiceImpl implements UserService {
 
         return resultVo;
     }
+
+    @Override
+    public ResultVo add(User user) {
+        ResultVo vo;
+
+        //判断是否存在创建时间，没有就自己加上去
+        if(user.getCreateTime() == null){
+            user.setCreateTime(new Date());
+        }
+
+        int affectedRows = userMapper.insertSelective(user);
+
+        if(affectedRows > 0){
+            vo = new ResultVo(2000, "添加成功", true, user);
+        }else{
+            vo = new ResultVo(5000, "添加失败", false, null);
+        }
+
+
+        return vo;
+    }
+
+    @Override
+    public ResultVo update(User user) {
+        ResultVo vo;
+
+        int affectedRows = userMapper.updateByPrimaryKeySelective(user);
+
+        if(affectedRows > 0){
+            //修改成功之后，再重新查询一次，保证返回前端拿到的是最新最全的数据
+            user = userMapper.selectByPrimaryKey(user.getId());
+
+            vo = new ResultVo(2000, "修改用户成功", true, user);
+        }else{
+            vo = new ResultVo(5000, "修改用户失败", false, null);
+        }
+
+        return vo;
+    }
+
+    @Override
+    public ResultVo del(Long id) {
+        int affectedRows = userMapper.deleteByPrimaryKey(id);
+
+        ResultVo vo;
+
+        if(affectedRows > 0){
+            vo = new ResultVo(2000, "删除用户成功", true, null);
+        }else{
+            vo = new ResultVo(5000, "删除用户失败", false, null);
+        }
+
+        return vo;
+    }
+
+
 }
