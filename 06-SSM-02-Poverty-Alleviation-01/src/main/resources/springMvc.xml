@@ -15,7 +15,9 @@
 
     <mvc:annotation-driven/>
 
-
+    <mvc:cors>
+        <mvc:mapping path="/*" allowed-origins="*"/>
+    </mvc:cors>
 
     <import resource="classpath:applicationContext.xml"/>
 </beans>
