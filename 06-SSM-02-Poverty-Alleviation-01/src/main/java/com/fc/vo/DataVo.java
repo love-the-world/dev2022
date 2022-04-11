@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 public class DataVo<T> {
     private Long total;
-    private List<T> list;
+    private List list;
     private Integer pageNum;
     private Integer pageSize;
 }

@@ -6,17 +6,20 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 public interface CarouselMapper {
+    //更改轮播图是否可用的状态
+    Integer changeStatus(Integer id);
+
     long countByExample(CarouselExample example);
 
     int deleteByExample(CarouselExample example);
 
-    int deleteByPrimaryKey(Integer id);
+    int deleteByPrimaryKey(@Param("id") Integer id);
 
     int insert(Carousel record);
 
     int insertSelective(Carousel record);
 
-    List<Carousel> selectByExample(CarouselExample example);
+    List<Carousel> selectByExample(Integer example);
 
     Carousel selectByPrimaryKey(Integer id);
 

@@ -2,6 +2,7 @@ package com.fc.advice;
 
 import com.fc.vo.ResultVo;
 import org.springframework.dao.DuplicateKeyException;
+import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -32,5 +33,13 @@ public class GlobalExceptionHandler {
         System.out.println(e.getMessage());
 
         return new ResultVo(4600, "缺少了重要的请求参数，请重新发送", false, null);
+    }
+
+    @ExceptionHandler(value = HttpRequestMethodNotSupportedException.class)
+    @ResponseBody
+    public ResultVo httpRequestMethodNotSupportedException(HttpRequestMethodNotSupportedException e){
+        System.out.println(e.getMessage());
+
+        return new ResultVo(4601, "请求方式有误，麻烦自己查看文档", false, null);
     }
 }
