@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car" class="com.fc.entity.Car">
+        <property name="color" value="pink"/>
+    </bean>
+
+    <bean id="complexType" class="com.fc.entity.ComplexType">
+        <property name="objects">
+            <array>
+                <value>666</value>
+                <value>张曹慧</value>
+                <value>true</value>
+                <value>3.1415926</value>
+                <value>牛</value>
+            </array>
+        </property>
+
+        <property name="list">
+            <array>
+                <value>维他命</value>
+                <value>老坛酸菜</value>
+                <value>火腿肠</value>
+                <value>王中王</value>
+            </array>
+        </property>
+
+        <property name="set">
+            <array>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+                <value>4</value>
+            </array>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="person" value="张曹慧"/>
+                <entry key="car" value-ref="car"/>
+            </map>
+        </property>
+    </bean>
+</beans>
