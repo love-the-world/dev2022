@@ -1,37 +1,40 @@
 package com.fc.controller;
 
-import com.fc.entity.User;
-import com.fc.service.UserService;
+import com.fc.dao.CollectionMapper;
+import com.fc.entity.Collection;
+import com.fc.service.CollectionService;
 import com.fc.vo.ResultVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collections;
+
 @RestController
-@RequestMapping("user")
+@RequestMapping("collection")
 @CrossOrigin("*")
-public class UserController {
+public class CollectionController {
     @Autowired
-    private UserService userService;
+    private CollectionService collectionService;
 
     @GetMapping("getList")
     public ResultVo getList(@RequestParam(value = "pageNum") Integer pageNum,
                             @RequestParam(value = "pageSize") Integer pageSize,
                             Long id){
-        return userService.getList(pageNum, pageSize, id);
+        return collectionService.getList(pageNum, pageSize, id);
     }
 
     @PostMapping("add")
-    public ResultVo add(@RequestBody User user){
-        return  userService.add(user);
+    public ResultVo add(@RequestBody Collection collection){
+        return collectionService.add(collection);
     }
 
     @PostMapping("update")
-    public ResultVo update(@RequestBody User user){
-        return userService.update(user);
+    public ResultVo update(@RequestBody Collection collection){
+        return collectionService.update(collection);
     }
 
     @GetMapping("del")
     public ResultVo del(@RequestParam Long id){
-        return userService.del(id);
+        return collectionService.del(id);
     }
 }

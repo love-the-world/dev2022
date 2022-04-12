@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("volunteer")
+@CrossOrigin("*")
 public class VolunteerController {
     @Autowired
     private VolunteerService volunteerService;

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("alleviation")
+@CrossOrigin("*")
 public class AlleviationController {
     @Autowired
     private AlleviationService alleviationService;
