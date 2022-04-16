@@ -40,6 +40,7 @@ public class CarouselServiceImpl implements CarouselService {
 
             // 没有查到用户的情况
             if (carousel == null) {
+
                 carouselDataVO = new DataVo<>(0L, carousels, pageNum, pageSize);
 
                 resultVo = new ResultVo(4044, "查无此图!", false, carouselDataVO);

@@ -99,7 +99,7 @@ public class AlleviationServiceImpl implements AlleviationService {
     }
 
     @Override
-    public ResultVo del(Long id) {
+    public ResultVo delete(Long id) {
         int affectedRows = alleviationMapper.deleteByPrimaryKey(id);
 
         ResultVo vo;

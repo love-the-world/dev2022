@@ -10,7 +10,7 @@ public interface AlleviationService {
 
     ResultVo update(Alleviation alleviation);
 
-    ResultVo del(Long id);
+    ResultVo delete(Long id);
 
     ResultVo add(Alleviation alleviation);
 

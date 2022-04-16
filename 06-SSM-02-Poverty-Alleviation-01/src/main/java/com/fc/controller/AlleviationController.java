@@ -30,9 +30,9 @@ public class AlleviationController {
         return alleviationService.update(alleviation);
     }
 
-    @GetMapping("del")
-    public ResultVo del(@RequestParam Long id){
-        return alleviationService.del(id);
+    @GetMapping("delete")
+    public ResultVo delete(@RequestParam Long id){
+        return alleviationService.delete(id);
     }
 
     @PostMapping("click")

@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Override
-    public ResultVo getList(Integer pageNum, Integer pageSize, Long id) {
+    public ResultVo getlist(Integer pageNum, Integer pageSize, Long id) {
         //返回给前端的结果
         ResultVo resultVo;
 
@@ -114,7 +114,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public ResultVo del(Long id) {
+    public ResultVo delete(Long id) {
         int affectedRows = userMapper.deleteByPrimaryKey(id);
 
         ResultVo vo;

@@ -13,11 +13,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("getList")
-    public ResultVo getList(@RequestParam(value = "pageNum") Integer pageNum,
+    @GetMapping("getlist")
+    public ResultVo getlist(@RequestParam(value = "pageNum") Integer pageNum,
                             @RequestParam(value = "pageSize") Integer pageSize,
                             Long id){
-        return userService.getList(pageNum, pageSize, id);
+        return userService.getlist(pageNum, pageSize, id);
     }
 
     @PostMapping("add")
@@ -30,8 +30,8 @@ public class UserController {
         return userService.update(user);
     }
 
-    @GetMapping("del")
-    public ResultVo del(@RequestParam Long id){
-        return userService.del(id);
+    @GetMapping("delete")
+    public ResultVo delete(@RequestParam Long id){
+        return userService.delete(id);
     }
 }
