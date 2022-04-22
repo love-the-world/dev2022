@@ -5,7 +5,7 @@
 
     <bean id="car" class="com.fc.entity.Car">
         <constructor-arg name="speed" type="java.lang.Float" value="180"/>
-        <constructor-arg name="color" type="java.lang.String" value="yellow"/>
+        <constructor-arg name="color" type="java.lang.String" value="pink"/>
     </bean>
 
     <bean id="person" class="com.fc.entity.Person">

@@ -42,8 +42,6 @@ public class FileUpLoadServiceImpl implements FileUpLoadService {
 
         ResultVo resultVo = new ResultVo();
 
-
-
         try {
             //文件上传操作
             file.transferTo(new File(pathfile, originalFilename));

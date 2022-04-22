@@ -19,23 +19,24 @@
         </property>
 
         <property name="list">
-            <array>
+            <list>
                 <value>维他命</value>
                 <value>老坛酸菜</value>
                 <value>火腿肠</value>
                 <value>王中王</value>
-            </array>
+            </list>
         </property>
 
         <property name="set">
-            <array>
+            <set>
                 <value>1</value>
                 <value>2</value>
                 <value>3</value>
                 <value>4</value>
-            </array>
+            </set>
         </property>
 
+<!--        map里面放的是键值对-->
         <property name="map">
             <map>
                 <entry key="person" value="张曹慧"/>

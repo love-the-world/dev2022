@@ -7,9 +7,14 @@
 
     </bean>
 
-    <bean id="userController" class="com.fc.controller.UserController"/>
-
     <bean id="userDao" class="com.fc.dao.impl.UserDaoImpl"/>
+    <bean id="userDaoMySQL" class="com.fc.dao.impl.UserDaoMySQLImpl"/>
 
-    <bean id="userService" class="com.fc.service.impl.UserServiceImpl"/>
+    <bean id="userService" class="com.fc.service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean id="userController" class="com.fc.controller.UserController">
+        <property name="userService" ref="userService"/>
+    </bean>
 </beans>
