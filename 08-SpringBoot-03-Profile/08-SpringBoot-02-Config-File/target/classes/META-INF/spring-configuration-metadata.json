@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "student.person",
+      "type": "com.fc.entity.Person",
+      "sourceType": "com.fc.entity.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "student.person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.fc.entity.Person"
+    }
+  ],
+  "hints": []
+}
