@@ -3,15 +3,20 @@ package com.fc.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("index")
 public class IndexController {
 
     @RequestMapping("test")
-    public String test(Model model) {
-        model.addAttribute("username", "王豪祥");
+    public ModelAndView test() {
+        ModelAndView mv = new ModelAndView();
 
-        return "/index.jsp";
+        mv.addObject("username", "dhjkg");
+        mv.setViewName("twt");
+
+
+        return mv;
     }
 }
