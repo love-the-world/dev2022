@@ -1,0 +1,9 @@
+spring:
+  devtools:
+    restart:
+      #开启自动重启
+      enabled: true
+      #轮询间隔
+      poll-interval: 2s
+      #静默时间
+      quiet-period: 1s

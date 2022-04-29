@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--MyBatis配置-->
+<configuration>
+<!--    &lt;!&ndash;配置分页插件&ndash;&gt;-->
+<!--    <plugins>-->
+<!--        <plugin interceptor="com.github.pagehelper.PageInterceptor">-->
+<!--            &lt;!&ndash;设置分页的方言&ndash;&gt;-->
+<!--            <property name="helperDialect" value="mysql"/>-->
+<!--            &lt;!&ndash;分页合理化&ndash;&gt;-->
+<!--            <property name="reasonable" value="true"/>-->
+<!--        </plugin>-->
+<!--    </plugins>-->
+</configuration>
