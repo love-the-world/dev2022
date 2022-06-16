@@ -6,7 +6,12 @@ spring:
     url: jdbc:mysql://localhost:3306/mybatis_plus?useSSL=false&characterEncoding=UTF8&useUnicode=true&serverTimeZone=Asia/Shanghai
     username: root
     password: 20030702
-
+#  mybatis_plus的配置
 mybatis-plus:
   configuration:
+    # 开启mybatis_plus的日志
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #指定mapper映射文件
+  mapper-locations: classpath:/mapper/**/*.xml
+  #配置别名
+  type-aliases-package: com.fc.entity

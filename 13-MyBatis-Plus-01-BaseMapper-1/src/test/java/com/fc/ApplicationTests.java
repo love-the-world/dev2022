@@ -121,4 +121,14 @@ class ApplicationTests {
 
         System.out.println(affectedRows > 0 ? "修改成功" : "修改失败");
    }
+
+   //自定义查询
+    @Test
+    void CustomSQL() {
+        List<Student> list = studentDao.findByAgeOnDescOrder();
+
+        for (Student student : list) {
+            System.out.println(student);
+        }
+    }
 }
