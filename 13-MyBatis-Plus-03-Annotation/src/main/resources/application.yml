@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis_plus?useSSL=false&characterEncoding=UTF8&serverTimeZone=Asia/Shanghai&useUnicode=true
+    username: root
+    password: 20030702
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      # 开启全局的表名前缀配置，所有映射的表明前面都会加上这个前缀
+      table-prefix: tb_
+      id-type: auto
