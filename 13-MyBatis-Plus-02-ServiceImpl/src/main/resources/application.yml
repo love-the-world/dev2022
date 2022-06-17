@@ -1,13 +1,11 @@
-# 数据源相关的配置
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mybatis_plus?useSSL=false&characterEncoding=UTF8&userUnicode=true&serverTimeZone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/mybatis_plus?useSSL=false&characterEncoding=UTF8&serverTimeZone=Asia/Shanghai&useUnicode=true
     username: root
     password: 20030702
-
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  mapper-locations: classpath:/mapper/**/*.xml
+  mapper-locations: classpath:com/fc/mapper/**/*.xml
