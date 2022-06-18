@@ -37,6 +37,13 @@ class AnnotationTests {
         }
     }
 
+    @Test
+    void delete() {
+        int affectedRows = tbUserDao.deleteById(1);
+
+        System.out.println(affectedRows > 0 ? "删除成功" : "删除失败");
+    }
+
     //测试生成UUID
     @Test
     void TestUUID() {

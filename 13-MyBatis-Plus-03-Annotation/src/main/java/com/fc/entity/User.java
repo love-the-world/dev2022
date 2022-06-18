@@ -1,6 +1,8 @@
 package com.fc.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
@@ -11,9 +13,15 @@ import lombok.Data;
 public class User {
     @TableId(value = "id")
     private Integer qq;
-    private String username;
+    @TableField(value = "username")
+    private String name;
+    @TableField(select = false)
     private String password;
     private String nick;
     private String head;
     private String mood;
+    @TableField(exist = false)
+    private String info;
+    @TableLogic
+    private Boolean available;
 }

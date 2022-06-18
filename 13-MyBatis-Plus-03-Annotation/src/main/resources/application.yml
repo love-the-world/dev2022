@@ -12,4 +12,4 @@ mybatis-plus:
     db-config:
       # 开启全局的表名前缀配置，所有映射的表明前面都会加上这个前缀
       table-prefix: tb_
-      id-type: auto
+      id-type: assign_id
