@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="03-Spring-03-CreateBean1" />
+        <module name="04-DesignPattern-01-Proxy" />
+        <module name="08-SpringBoot-08-JdbcTemplate-1" />
+        <module name="_01-ThirdLayerApplication" />
+        <module name="03-Spring-03-CreateBean2" />
+        <module name="08-SpringBoot-06-StaticResource" />
+        <module name="08-SpringBoot-19-Mail" />
+        <module name="02-MyBatis-01-Start-02" />
+        <module name="03-Spring-07-DI-02-Set" />
+        <module name="03-Spring-05-Lifecycle" />
+        <module name="13-mybatis-plus-01-springboot" />
+        <module name="13-MyBatis-Plus-04-Wrapper" />
+        <module name="03-Spring-07-DI-04-ThirdLayerApplication" />
+        <module name="06-SSM-01-Wyy" />
+        <module name="08-SpringBoot-00-Starter" />
+        <module name="03-Spring-04-Scope" />
+        <module name="03-Spring-07-DI-03-ComplexType" />
+        <module name="03-Spring-03-CreateBean" />
+        <module name="08-SpringBoot-03-Profile-01" />
+        <module name="13-MyBatis-Plus-03-Annotation" />
+        <module name="03-Spring-06-Lazy" />
+        <module name="03-Spring-07-DI-05-Annotation" />
+        <module name="06-SSM-02-Poverty-Alleviation" />
+        <module name="13-MyBatis-Plus-02-ServiceImpl" />
+        <module name="13-MyBatis-Plus-01-BaseMapper-1" />
+        <module name="03-Spring-07-DI-01-Constructor1" />
+        <module name="08-SpringBoot-07-JSP" />
+        <module name="03-Spring-06-Lazy-01" />
+        <module name="08-SpringBoot-04-Annotation" />
+        <module name="02-MyBatis-01-Start" />
+        <module name="08-SpringBoot-20-Devtools" />
+        <module name="08-SpringBoot-05-Conditional" />
+        <module name="06-SSM-02-Poverty-Alleviation-01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="02-MyBatis-01-Start" target="1.8" />
+      <module name="02-MyBatis-01-Start-02" target="1.8" />
+      <module name="02-MyBatis-01-Strat" target="1.8" />
+      <module name="03-Spring-03-CreateBean" target="1.8" />
+      <module name="03-Spring-03-CreateBean1" target="1.8" />
+      <module name="03-Spring-03-CreateBean2" target="1.8" />
+      <module name="03-Spring-04-Scope" target="1.8" />
+      <module name="03-Spring-05-Lifecycle" target="1.8" />
+      <module name="03-Spring-06-Lazy" target="1.8" />
+      <module name="03-Spring-06-Lazy-01" target="1.8" />
+      <module name="03-Spring-07-DI-01-Constructor" target="1.8" />
+      <module name="03-Spring-07-DI-01-Constructor1" target="1.8" />
+      <module name="03-Spring-07-DI-02-Set" target="1.8" />
+      <module name="03-Spring-07-DI-03-ComplexType" target="1.8" />
+      <module name="03-Spring-07-DI-04-ThirdLayerApplication" target="1.8" />
+      <module name="03-Spring-07-DI-05-Annotation" target="1.8" />
+      <module name="04-DesignPattern-01-Proxy" target="1.8" />
+      <module name="06-SSM-01-Wyy" target="1.8" />
+      <module name="06-SSM-01-Wyy1" target="1.8" />
+      <module name="06-SSM-02-Poverty-Alleviation" target="1.8" />
+      <module name="06-SSM-02-Poverty-Alleviation-01" target="1.8" />
+      <module name="08-SpirngBoot-08-JdbcTemplate" target="1.8" />
+      <module name="08-SpirngBoot-08-JdbcTemplate-01" target="1.8" />
+      <module name="08-SpringBoot-00-Starter" target="1.8" />
+      <module name="08-SpringBoot-01-Starter" target="1.8" />
+      <module name="08-SpringBoot-02-Config-File" target="1.8" />
+      <module name="08-SpringBoot-03-Profile" target="1.8" />
+      <module name="08-SpringBoot-03-Profile-01" target="1.8" />
+      <module name="08-SpringBoot-04-Annotation" target="1.8" />
+      <module name="08-SpringBoot-05-Conditional" target="1.8" />
+      <module name="08-SpringBoot-06-StaticResource" target="1.8" />
+      <module name="08-SpringBoot-07-JSP" target="1.8" />
+      <module name="08-SpringBoot-08-JdbcTemplate-1" target="1.8" />
+      <module name="08-SpringBoot-18-Junit5" target="1.8" />
+      <module name="08-SpringBoot-19-Mail" target="1.8" />
+      <module name="08-SpringBoot-20-Devtools" target="1.8" />
+      <module name="09-SpringBoot-01-Cloud-Diary" target="1.8" />
+      <module name="10-SpringBoot-02-Take-Out" target="1.8" />
+      <module name="13-MyBatis-Plus-01-BaseMapper-1" target="1.8" />
+      <module name="13-mybatis-plus-01-springboot" target="1.8" />
+      <module name="13-MyBatis-Plus-01-SpringBoot" target="1.8" />
+      <module name="13-MyBatis-Plus-02-ServiceImpl" target="1.8" />
+      <module name="13-MyBatis-Plus-03-Annotation" target="1.8" />
+      <module name="13-MyBatis-Plus-04-Wrapper" target="1.8" />
+      <module name="_01-ThirdLayerApplication" target="1.8" />
+      <module name="aa" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="08-SpirngBoot-08-JdbcTemplate" options="-parameters" />
+      <module name="08-SpirngBoot-08-JdbcTemplate-01" options="-parameters" />
+      <module name="08-SpringBoot-00-Starter" options="-parameters" />
+      <module name="08-SpringBoot-01-Starter" options="-parameters" />
+      <module name="08-SpringBoot-02-Config-File" options="-parameters" />
+      <module name="08-SpringBoot-03-Profile" options="-parameters" />
+      <module name="08-SpringBoot-03-Profile-01" options="-parameters" />
+      <module name="08-SpringBoot-04-Annotation" options="-parameters" />
+      <module name="08-SpringBoot-05-Conditional" options="-parameters" />
+      <module name="08-SpringBoot-06-StaticResource" options="-parameters" />
+      <module name="08-SpringBoot-07-JSP" options="-parameters" />
+      <module name="08-SpringBoot-08-JdbcTemplate-1" options="-parameters" />
+      <module name="08-SpringBoot-18-Junit5" options="-parameters" />
+      <module name="08-SpringBoot-19-Mail" options="-parameters" />
+      <module name="08-SpringBoot-20-Devtools" options="-parameters" />
+      <module name="09-SpringBoot-01-Cloud-Diary" options="-parameters" />
+      <module name="10-SpringBoot-02-Take-Out" options="-parameters" />
+      <module name="13-MyBatis-Plus-01-BaseMapper-1" options="-parameters" />
+      <module name="13-MyBatis-Plus-01-SpringBoot" options="-parameters" />
+      <module name="13-MyBatis-Plus-02-ServiceImpl" options="-parameters" />
+      <module name="13-MyBatis-Plus-03-Annotation" options="-parameters" />
+      <module name="13-MyBatis-Plus-04-Wrapper" options="-parameters" />
+      <module name="13-mybatis-plus-01-springboot" options="-parameters" />
+    </option>
+  </component>
+</project>

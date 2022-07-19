@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="03-Spring-06-Lazy-01:war">
+    <output-path>$PROJECT_DIR$/03-Spring-06-Lazy-01/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>03-Spring-06-Lazy-01</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="_03-Spring-06-Lazy-01-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="03-Spring-06-Lazy-01:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01-ThirdLayerApplication/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-ThirdLayerApplication/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-01-Start-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-01-Start-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-01-Start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-MyBatis-01-Start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-03-CreateBean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-03-CreateBean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-03-CreateBean1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-03-CreateBean1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-03-CreateBean2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-03-CreateBean2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-04-Scope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-04-Scope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-05-Lifecycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-05-Lifecycle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-06-Lazy-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-06-Lazy-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-06-Lazy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-06-Lazy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-01-Constructor1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-01-Constructor1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-02-Set/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-02-Set/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-03-ComplexType/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-03-ComplexType/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-04-ThirdLayerApplication/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-04-ThirdLayerApplication/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-05-Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Spring-07-DI-05-Annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-DesignPattern-01-Proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-DesignPattern-01-Proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-01-Wyy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-01-Wyy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-01-Wyy1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-01-Wyy1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation-01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-00-Starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-03-Profile-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-04-Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-05-Conditional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-06-StaticResource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-06-StaticResource/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-07-JSP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-19-Mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-SpringBoot-20-Devtools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-SpringBoot-02-Take-Out/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-MyBatis-Plus-01-BaseMapper-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-MyBatis-Plus-01-SpringBoot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-MyBatis-Plus-02-ServiceImpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-MyBatis-Plus-03-Annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-MyBatis-Plus-04-Wrapper/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02-MyBatis-01-Start/02-MyBatis-01-Start.iml" filepath="$PROJECT_DIR$/02-MyBatis-01-Start/02-MyBatis-01-Start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-MyBatis-01-Start-02/02-MyBatis-01-Start-02.iml" filepath="$PROJECT_DIR$/02-MyBatis-01-Start-02/02-MyBatis-01-Start-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-03-CreateBean/03-Spring-03-CreateBean.iml" filepath="$PROJECT_DIR$/03-Spring-03-CreateBean/03-Spring-03-CreateBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-03-CreateBean1/03-Spring-03-CreateBean1.iml" filepath="$PROJECT_DIR$/03-Spring-03-CreateBean1/03-Spring-03-CreateBean1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-03-CreateBean2/03-Spring-03-CreateBean2.iml" filepath="$PROJECT_DIR$/03-Spring-03-CreateBean2/03-Spring-03-CreateBean2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-04-Scope/03-Spring-04-Scope.iml" filepath="$PROJECT_DIR$/03-Spring-04-Scope/03-Spring-04-Scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-05-Lifecycle/03-Spring-05-Lifecycle.iml" filepath="$PROJECT_DIR$/03-Spring-05-Lifecycle/03-Spring-05-Lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-06-Lazy/03-Spring-06-Lazy.iml" filepath="$PROJECT_DIR$/03-Spring-06-Lazy/03-Spring-06-Lazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-06-Lazy-01/03-Spring-06-Lazy-01.iml" filepath="$PROJECT_DIR$/03-Spring-06-Lazy-01/03-Spring-06-Lazy-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-07-DI-01-Constructor/03-Spring-07-DI-01-Constructor.iml" filepath="$PROJECT_DIR$/03-Spring-07-DI-01-Constructor/03-Spring-07-DI-01-Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-07-DI-01-Constructor1/03-Spring-07-DI-01-Constructor1.iml" filepath="$PROJECT_DIR$/03-Spring-07-DI-01-Constructor1/03-Spring-07-DI-01-Constructor1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-07-DI-02-Set/03-Spring-07-DI-02-Set.iml" filepath="$PROJECT_DIR$/03-Spring-07-DI-02-Set/03-Spring-07-DI-02-Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-07-DI-03-ComplexType/03-Spring-07-DI-03-ComplexType.iml" filepath="$PROJECT_DIR$/03-Spring-07-DI-03-ComplexType/03-Spring-07-DI-03-ComplexType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-07-DI-04-ThirdLayerApplication/03-Spring-07-DI-04-ThirdLayerApplication.iml" filepath="$PROJECT_DIR$/03-Spring-07-DI-04-ThirdLayerApplication/03-Spring-07-DI-04-ThirdLayerApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Spring-07-DI-05-Annotation/03-Spring-07-DI-05-Annotation.iml" filepath="$PROJECT_DIR$/03-Spring-07-DI-05-Annotation/03-Spring-07-DI-05-Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-DesignPattern-01-Proxy/04-DesignPattern-01-Proxy.iml" filepath="$PROJECT_DIR$/04-DesignPattern-01-Proxy/04-DesignPattern-01-Proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-SSM-01-Wyy/06-SSM-01-Wyy.iml" filepath="$PROJECT_DIR$/06-SSM-01-Wyy/06-SSM-01-Wyy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-SSM-01-Wyy1/06-SSM-01-Wyy1.iml" filepath="$PROJECT_DIR$/06-SSM-01-Wyy1/06-SSM-01-Wyy1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation/06-SSM-02-Poverty-Alleviation.iml" filepath="$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation/06-SSM-02-Poverty-Alleviation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation-01/06-SSM-02-Poverty-Alleviation-01.iml" filepath="$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation-01/06-SSM-02-Poverty-Alleviation-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-00-Starter/08-SpringBoot-00-Starter.iml" filepath="$PROJECT_DIR$/08-SpringBoot-00-Starter/08-SpringBoot-00-Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-03-Profile-01/08-SpringBoot-03-Profile-01.iml" filepath="$PROJECT_DIR$/08-SpringBoot-03-Profile-01/08-SpringBoot-03-Profile-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-04-Annotation/08-SpringBoot-04-Annotation.iml" filepath="$PROJECT_DIR$/08-SpringBoot-04-Annotation/08-SpringBoot-04-Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-05-Conditional/08-SpringBoot-05-Conditional.iml" filepath="$PROJECT_DIR$/08-SpringBoot-05-Conditional/08-SpringBoot-05-Conditional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-06-StaticResource/08-SpringBoot-06-StaticResource.iml" filepath="$PROJECT_DIR$/08-SpringBoot-06-StaticResource/08-SpringBoot-06-StaticResource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-07-JSP/08-SpringBoot-07-JSP.iml" filepath="$PROJECT_DIR$/08-SpringBoot-07-JSP/08-SpringBoot-07-JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate-1/08-SpringBoot-08-JdbcTemplate-1.iml" filepath="$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate-1/08-SpringBoot-08-JdbcTemplate-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-19-Mail/08-SpringBoot-19-Mail.iml" filepath="$PROJECT_DIR$/08-SpringBoot-19-Mail/08-SpringBoot-19-Mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-SpringBoot-20-Devtools/08-SpringBoot-20-Devtools.iml" filepath="$PROJECT_DIR$/08-SpringBoot-20-Devtools/08-SpringBoot-20-Devtools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-SpringBoot-02-Take-Out/10-SpringBoot-02-Take-Out.iml" filepath="$PROJECT_DIR$/10-SpringBoot-02-Take-Out/10-SpringBoot-02-Take-Out.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-MyBatis-Plus-01-BaseMapper-1/13-MyBatis-Plus-01-BaseMapper-1.iml" filepath="$PROJECT_DIR$/13-MyBatis-Plus-01-BaseMapper-1/13-MyBatis-Plus-01-BaseMapper-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-MyBatis-Plus-02-ServiceImpl/13-MyBatis-Plus-02-ServiceImpl.iml" filepath="$PROJECT_DIR$/13-MyBatis-Plus-02-ServiceImpl/13-MyBatis-Plus-02-ServiceImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-MyBatis-Plus-03-Annotation/13-MyBatis-Plus-03-Annotation.iml" filepath="$PROJECT_DIR$/13-MyBatis-Plus-03-Annotation/13-MyBatis-Plus-03-Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-MyBatis-Plus-04-Wrapper/13-MyBatis-Plus-04-Wrapper.iml" filepath="$PROJECT_DIR$/13-MyBatis-Plus-04-Wrapper/13-MyBatis-Plus-04-Wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-MyBatis-Plus-01-SpringBoot/13-mybatis-plus-01-springboot.iml" filepath="$PROJECT_DIR$/13-MyBatis-Plus-01-SpringBoot/13-mybatis-plus-01-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-ThirdLayerApplication/_01-ThirdLayerApplication.iml" filepath="$PROJECT_DIR$/01-ThirdLayerApplication/_01-ThirdLayerApplication.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,9 +1,6 @@
 package com.fc.entity;
 
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 @Data
@@ -11,17 +8,14 @@ import lombok.Data;
 //keepGlobalPrefix配置全局的前缀，默认值为false，只要我们添加了@TableName，就不会走我们的全局前缀
 @TableName(value = "tb_user")
 public class User {
-    @TableId(value = "id")
-    private Integer qq;
-    @TableField(value = "username")
-    private String name;
-    @TableField(select = false)
+    @TableId(value = "id", type = IdType.ASSIGN_ID)
+    private Integer ab;
+    private String username;
     private String password;
     private String nick;
     private String head;
+    @TableField()
     private String mood;
-    @TableField(exist = false)
-    private String info;
     @TableLogic
     private Boolean available;
 }

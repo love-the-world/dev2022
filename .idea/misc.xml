@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01-ThirdLayerApplication" />
+    <file type="web" url="file://$PROJECT_DIR$/03-Spring-06-Lazy-01" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-01-Wyy" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-01-Wyy1" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation-01" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01-ThirdLayerApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-03-CreateBean/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-04-Scope/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-05-Lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-06-Lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-01-Constructor1/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-02-Set/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-03-CreateBean2/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-03-CreateBean1/pom.xml" />
+        <option value="$PROJECT_DIR$/04-DesignPattern-01-Proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-03-ComplexType/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-04-ThirdLayerApplication/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-07-DI-05-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-01-Wyy/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-01-Wyy1/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Spring-06-Lazy-01/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SSM-02-Poverty-Alleviation-01/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-00-Starter/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-03-Profile-01/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-04-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-05-Conditional/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-06-StaticResource/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-07-JSP/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpirngBoot-08-JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpirngBoot-08-JdbcTemplate-01/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-08-JdbcTemplate-1/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-19-Mail/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-20-Devtools/pom.xml" />
+        <option value="$PROJECT_DIR$/08-SpringBoot-18-Junit5/pom.xml" />
+        <option value="$PROJECT_DIR$/09-SpringBoot-01-Cloud-Diary/pom.xml" />
+        <option value="$PROJECT_DIR$/13-MyBatis-Plus-01-SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/13-MyBatis-Plus-01-BaseMapper-1/pom.xml" />
+        <option value="$PROJECT_DIR$/13-MyBatis-Plus-02-ServiceImpl/pom.xml" />
+        <option value="$PROJECT_DIR$/13-MyBatis-Plus-03-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/13-MyBatis-Plus-04-Wrapper/pom.xml" />
+        <option value="$PROJECT_DIR$/10-SpringBoot-02-Take-Out/pom.xml" />
+        <option value="$PROJECT_DIR$/02-MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/02-MyBatis-01-Start/pom.xml" />
+        <option value="$PROJECT_DIR$/02-MyBatis-01-Start-02/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/06-SSM-01-Wyy1/aa/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
