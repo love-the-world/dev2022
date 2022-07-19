@@ -1,0 +1,17 @@
+#����Դ��ص�����
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis_plus?useSSL=false&characterEncoding=UTF8&useUnicode=true&serverTimeZone=Asia/Shanghai
+    username: root
+    password: 20030702
+#  mybatis_plus������
+mybatis-plus:
+  configuration:
+    # ����mybatis_plus����־
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #ָ��mapperӳ���ļ�
+  mapper-locations: classpath:/mapper/**/*.xml
+  #���ñ���
+  type-aliases-package: com.fc.entity
